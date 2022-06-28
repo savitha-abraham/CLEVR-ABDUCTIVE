@@ -12,6 +12,7 @@ import torch
 
 import warnings
 
+#TEST
 def find_clevr_question_type(out_mod):
     """Find CLEVR question type according to program modules"""
     if out_mod == 'count':
