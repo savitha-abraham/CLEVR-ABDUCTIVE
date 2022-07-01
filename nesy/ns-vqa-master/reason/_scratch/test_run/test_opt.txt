@@ -14,7 +14,7 @@ clevr_val_scene_path: ../data/raw/CLEVR_v1.0/scenes/CLEVR_test_scenes.json
 clevr_train_question_path: ../data/reason/clevr_h5_3000/clevr_train_questions.h5
 clevr_val_question_path: ../data/reason/clevr_h5_3000/clevr_test_questions.h5
 clevr_vocab_path: ../data/reason/clevr_h5_3000/clevr_vocab.json
-load_checkpoint_path: ../data/reason/outputs_3000/model_reinforce_uniform_270pg_100_dict/checkpoint_best.pt
+load_checkpoint_path: ../data/reason/outputs_3000/model_reinforce_uniform_270pg_30dict/checkpoint_best.pt
 save_result_path: ../data/reason/results_3000/result_dict.json
 max_val_samples: None
 batch_size: 300

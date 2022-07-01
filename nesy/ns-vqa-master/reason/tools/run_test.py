@@ -1,8 +1,8 @@
 import os, sys
 import json
 
-sys.path.append("/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason/options") # Adds higher directory to python modules path.
-sys.path.append("/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason")
+sys.path.append("/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason/options") # Adds higher directory to python modules path.
+sys.path.append("/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason")
 from options.test_options import TestOptions
 from datasets import get_dataloader
 from executors import get_executor

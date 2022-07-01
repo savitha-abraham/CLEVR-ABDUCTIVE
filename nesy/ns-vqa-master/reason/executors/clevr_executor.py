@@ -69,9 +69,9 @@ class ClevrExecutor:
         self.sizes = CLEVR_SIZES
         self.answer_candidates = CLEVR_ANSWER_CANDIDATES
         self.region_rel = region_rel
-        self.consistent = pickle.load(open( "/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason/executors/consistent_combination.p", "rb" ))
-        self.cons_feat_val = pickle.load(open( "/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason/executors/dict_cfv.p", "rb" ))
-        self.cons_reg_feat = pickle.load(open( "/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason/executors/dict_crf.p", "rb" ))
+        self.consistent = pickle.load(open( "/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason/executors/consistent_combination.p", "rb" ))
+        self.cons_feat_val = pickle.load(open( "/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason/executors/dict_cfv.p", "rb" ))
+        self.cons_reg_feat = pickle.load(open( "/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason/executors/dict_crf.p", "rb" ))
         self.modules = {}
         self._register_modules()
     

@@ -2,7 +2,7 @@
 # code adopted from https://github.com/facebookresearch/clevr-iep/blob/master/scripts/preprocess_questions.py
 
 import sys
-sys.path.append("/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason")
+sys.path.append("/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason")
 import os
 import argparse
 import json

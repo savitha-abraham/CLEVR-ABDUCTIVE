@@ -1,7 +1,7 @@
 import sys
 import torch
-sys.path.append("/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason/options") # Adds higher directory to python modules path.
-sys.path.append("/content/drive/MyDrive/ColabNotebooks/clevr-abductive/nesy/ns-vqa-master/reason")
+sys.path.append("/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason/options") # Adds higher directory to python modules path.
+sys.path.append("/content/drive/MyDrive/CLEVR-ABDUCTIVE/nesy/ns-vqa-master/reason")
 #sys.path.append("/home/savitha/Documents/ns-vqa-master/reason/executors")
 #sys.path.append("/home/savitha/Documents/ns-vqa-master/reason/models")
 
